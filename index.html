@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAwIRAAIAAAAAAQAA////AAACAAABAgUAAwADAAsDBAAPj+kAEI3qAAAAAgANjO4AC47rAAAAAAAAAAAAAAAAAAAAAAAAAA3d0dAAAAAB3U3Q3dAAAN2ETd0d3QAA1NDd3V3dAA1E3Q3dDdDQDU3d190d0NANTd3dHdHd0AJN3dHRDQ3ADUQAHdAd0NAN1N3d3ZYN0ADU3d0Q0A0AAN1NEa3R2wAAAQPd3Q3QAAAADd3R0AAAAAAAAAAAAAD4HwAA4AcAAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA" rel="icon" type="image/x-icon" />
+        <title>Basketball scorecard</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class='home'>
+                <h3>HOME</h3>
+                <div class="score">
+                    <p id="home-score">00</p>
+                </div>
+                <button class='points-btn' onclick="addOneHome()">+1</button>
+                <button class='points-btn' onclick="addTwoHome()">+2</button>
+                <button class='points-btn' onclick="addThreeHome()">+3</button>
+            </div>
+            <div class='guest'>
+                <h3>GUEST</h3>
+                <div class="score">
+                    <p id="guest-score">00</p>
+                </div>
+                <button class='points-btn' onclick="addOneGuest()">+1</button>
+                <button class='points-btn' onclick="addTwoGuest()">+2</button>
+                <button class='points-btn' onclick="addThreeGuest()">+3</button>
+            </div>
+            <button class='newgame-btn' onclick="newGame()">New game</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

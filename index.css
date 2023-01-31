@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background: #DDD6FE;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #111827;
+    color: white;
+    width: 500px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 70px;
+    border: dotted whitesmoke 9px;
+}
+.home {
+    margin-top: 80px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    
+    
+}
+
+.guest {
+    margin-top: 80px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+.score {
+width: 155px;
+height: 120px;
+background-color: black;
+font-family: 'Cursed Timer ULiL', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 70px; 
+line-height: 127px;
+text-align: center;
+color: #F94F6D;
+border-radius: 30px;
+}
+
+.points-btn {
+    margin-top: 20px;
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+    border: groove whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.points-btn:active {
+    color: whitesmoke;
+    background: #111827;
+}
+
+.newgame-btn {
+    width: 200px;
+    height: 50px;
+    position:absolute;
+    bottom: 180px;
+    font-family: 'Verdana';
+    font-size: 20px;
+    font-weight: bold;
+    background: green;
+    border-radius: 30px;
+    cursor: pointer;
+    color: whitesmoke;
+}
